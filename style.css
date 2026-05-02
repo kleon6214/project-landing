@@ -44,14 +44,14 @@ hero {
     h1 {
         font-size: 48px;
         font-weight: 900;
-        width: 70%;
+        width: 50%;
     }
 
     p {
         font-size: 18px;
         color: white;
         margin-top: 10px;
-        width: 65%;
+        width: 50%;
     }
 
     button {
@@ -63,6 +63,27 @@ hero {
         height: 30px;
         width: 100px;
 
+    }
+
+    .placeholder {
+        width: 50%;
+        background-color: #60686c;
+        padding: 100px;
+        width: 20%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            color: white;
+            font-size: 16px;
+            height: 100px;
+            width: 100px;
+
+
+
+        }
     }
 
 
