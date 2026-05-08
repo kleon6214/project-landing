@@ -86,6 +86,22 @@ hero {
         }
     }
 
+}
 
+.body-content {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        margin: 30px;
+    }
+
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10px;
+        width: 10px;
+    }
 
 }
