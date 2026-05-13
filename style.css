@@ -165,6 +165,52 @@ hero {
         margin-top: 20px;
         width: 50%;
         text-align: center;
-        margin-bottom: 120px;
+        margin-bottom: 100px;
     }
+}
+
+.action {
+
+    margin-top: 100px;
+    margin-right: 500px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin-left: 500px;
+    font-size: 18px;
+
+    .action-title {
+
+
+        h2 {
+            color: white;
+            display: flex;
+            justify-content: center;
+            margin-right: 230px;
+
+        }
+    }
+
+    .action-description {
+        p {
+            color: white;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+    }
+
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-bottom: 500px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
 }
