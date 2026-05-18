@@ -29,6 +29,7 @@ nav ul {
 
 nav .logo {
 
+    margin-right: 140px;
     font-size: 24px;
     color: white;
 }
@@ -172,10 +173,11 @@ hero {
 .action {
 
     margin-top: 100px;
-    margin-right: 500px;
+    margin-right: 200px;
+    margin-bottom: 200px;
     background-color: #3882f6;
     border-radius: 5px;
-    margin-left: 500px;
+    margin-left: 200px;
     font-size: 18px;
 
     .action-title {
@@ -199,18 +201,29 @@ hero {
         }
     }
 
+    button {
+        outline: white;
+        margin-top: 20px;
+        margin-left: 1000px;
+        color: white;
+        background-color: #3882f6;
+        border-radius: 5px;
+        height: 30px;
+        width: 100px;
+    }
+
 
 }
 
-button {
+footer {
+    background-color: #1f2937;
+    color: white;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 700px;
-    margin-bottom: 500px;
-    color: white;
-    background-color: #3882f6;
-    border-radius: 5px;
-    height: 30px;
-    width: 100px;
+    align-items: center;
+    height: 100px;
+
+    p {
+        font-size: 16px;
+    }
 }
